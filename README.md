@@ -25,7 +25,7 @@ Ejemplo: {
     "read": true
 }
   
-2.Cambiar los permisos de un usuario para un álbum determinado: http://<host>:<puerto>/wolox-java-exercise/api/albums/{albumId}/permissions PUT
+2. Cambiar los permisos de un usuario para un álbum determinado: http://<host>:<puerto>/wolox-java-exercise/api/albums/{albumId}/permissions PUT
 Ejemplo: {
     "userId": 2,
     "write": false,
