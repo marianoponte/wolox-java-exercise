@@ -35,4 +35,5 @@ Ejemplo: {
 3. Traer todos los usuarios que tienen un permiso determinado respecto a un álbum específico: http://<host>:<puerto>/wolox-java-exercise/api/albums/{albumId}/users?write={boolean}&&read={boolean} GET. Se puede filtrar por cualquier permiso también u omitirlo.
   
 4. Los comentarios filtrados por el campo name (opcional): http://<host>:<puerto>/wolox-java-exercise/api/comments?name={valor} GET
+
 Los comentarios de un usuario: http://<host>:<puerto>/wolox-java-exercise/api/users/{userId}/comments GET
